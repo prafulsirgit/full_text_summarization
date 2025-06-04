@@ -1,0 +1,22 @@
+# Ignore all files inside datasets but keep the folder and a placeholder file
+datasets/*
+!datasets/
+!datasets/.gitkeep
+
+# Ignore dataset file types globally (optional)
+*.csv
+*.jsonl
+
+# Ignore all files inside fine_tuned_models but keep folder and subfolders
+fine_tuned_models/**/*
+!fine_tuned_models/
+!fine_tuned_models/.gitkeep
+
+!fine_tuned_models/bert/
+!fine_tuned_models/bert/.gitkeep
+
+!fine_tuned_models/legalbert/
+!fine_tuned_models/legalbert/.gitkeep
+
+!fine_tuned_models/pegasus/
+!fine_tuned_models/pegasus/.gitkeep
