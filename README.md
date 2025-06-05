@@ -4,12 +4,11 @@ Welcome to the **Document Summarization API**, a powerful Flask-based backend pa
 
 The intelligent model selection mechanism chooses the best summarizer for general or legal documents. The sleek, responsive front end enables seamless file uploads, summary customization, and results display, all built with modern JavaScript tooling.
 
-> 🚀 _Demo video coming soon!_  
-> [**Insert Placeholder for Demo Video** — A short walkthrough showcasing file uploads, summary generation, and results using the Vite front end.]
+![Alt text](./summarizer_frontend/public/graphics/modelinterface.png)
 
 ---
 
-## ✨ Features
+## Features
 
 - **Multi-Model Summarization**:  
   Uses Pegasus (abstractive), BERT (extractive), and LegalBERT (legal extractive) models.
@@ -30,7 +29,7 @@ The intelligent model selection mechanism chooses the best summarizer for genera
 
 ---
 
-## 🧰 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - Node.js 18+ and npm
@@ -43,7 +42,7 @@ The intelligent model selection mechanism chooses the best summarizer for genera
 
 ---
 
-## 📂 Note on Datasets and Fine-Tuned Models
+## Note on Datasets and Fine-Tuned Models
 
 - **Datasets**:  
   Not included in the repo. Download and place in paths specified in `config.py`:
@@ -57,7 +56,7 @@ The intelligent model selection mechanism chooses the best summarizer for genera
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 
